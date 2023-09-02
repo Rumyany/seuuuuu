@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>reservation</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined">
+    <link rel="stylesheet" href="../кофе/style/style.css">
+</head>
+<body>
+	<header id="header-section">
+    <div class="container container-header">
+        <div class="header">
+            <nav class="nav-main">
+                <ul class="nav-main__list">
+                    <div class="dropdown">
+                            <button class="dropbtn"><a class="nav_link" href="menu.html">Menu</a></button>
+                            <div class="dropdown-content">
+                                <a class="nav_link" href="coffee.html">Кофе</a>
+                                <a class="nav_link" href="pancakes.html">Блинчики</a>
+                                <a class="nav_link" href="deserts.html">Десерты</a>
+                            </div>
+                        </div>
+                        <li class="nav-main__item">
+                            <a class="nav-main__link nav-main__link_selected" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-main__item">
+                            <a class="nav-main__link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-main__item">
+                            <a class="nav-main__link" href="reservation.html">Reservation</a>
+                        </li>
+                    </ul>
+                    
+                     <ul class="nav-main__list">
+                       
+                        <li class="nav-main__item">
+                            <a class="nav-main__link" href="shop.html">Shop</a>
+                        </li>
+
+                    <img class="header__logo" src="img/logo.svg" alt="#">
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+	 <section id="section-reservation" class="section-main">
+            <div class="container">
+                <div class="reservation-wrap">
+                    <div class="reservation-map"></div>
+                    <form class="reservation">
+                        <h2 class="reservation__title section-title">Reservation</h2>
+                        <h3 class="reservation__subtitle section-subtitle">Booking a table</h3>
+                        <input class="reservation__input" type="text" value="4 person">
+                        <input class="reservation__input" type="text" value="12.25, 2020">
+                        <input class="reservation__input" type="text" value="11:00 AM">
+                        <button class="reservation__btn btn-primary">BOOK TABLE</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+</body>
+</html>
